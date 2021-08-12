@@ -161,7 +161,8 @@ input {
 }
 .btn1{
     padding: 13px 11px;
-    margin: 5px 0px;
+    width: 10%;
+    margin: auto;
 }
 .btn2{
     padding: 5px 34px;

@@ -209,22 +209,41 @@
         </div>
         <div class="review-container">
             <form action="#" class="reviews">
-                <h2 class="fac-title">Rate</h2>
+                <div class="rating-container">
+                    <h2>Give A Rating⭐</h2>
+                    <p class="lead"><em>Give your opinion on the faculty! You can only give one review per faculty  </em>!</p>
+                    <p><em>This helps us to filter and allot the best rated teachers to the students automatically! </em></p>
+                </div>
                 <ul id="review-messages">
 
                 </ul>
-                <div class="fac-selected">
-                    Search Faculty
+                <div class="fac-options-container">
+                    <div class="fac-selected">
+                        Search Faculty
+                    </div>
+                    <div class="fac-search-box">
+                        <input type="text" id="fac-inputFilter" placeholder="Filter Faculty Name..."
+                            onchange="filterFaculty()" />
+                    </div>
+                    <select class="fac-option" id="fac-list" style="vertical-align: top;">
+                        <option value="">Select any faculty.... </option>
+                    </select>
                 </div>
-                <div class="fac-search-box">
-                    <input type="text" id="fac-inputFilter" placeholder="Filter Faculty Name..."
-                        onchange="filterFaculty()" />
+                <div class="fac-options-container">
+                    <h2 class="fac-h2">Rate the Faculty</h2>
+                    <div class="rate-faculty">
+                        <a>⭐</a>
+                        <a>⭐</a>
+                        <a>⭐</a>
+                        <a>⭐</a>
+                        <a>⭐</a>
+                    </div>
                 </div>
-                <select class="fac-option" id="fac-list">
-                    <option value="">Select any faculty.... </option>
 
-                </select>
 
+
+                <!-- Submit Button -->
+                <input type="submit" id="FacultySubmit" value="Rate" class="btn123 solid" />
             </form>
         </div>
 
@@ -695,6 +714,7 @@
     <script src="./course6.js"></script>
     <script src="./course7.js"></script>
     <script src="./Reviewfaculty.js"></script>
+    <script src="./RateFaculty.js"></script>
 
 
 </body>
