@@ -207,7 +207,26 @@
         <div class="heading">
             <h1 class="align-left slide-in">Rate Faculty</h1>
         </div>
+        <div class="review-container">
+            <form action="#" class="reviews">
+                <h2 class="fac-title">Rate</h2>
+                <ul id="review-messages">
 
+                </ul>
+                <div class="fac-selected">
+                    Search Faculty
+                </div>
+                <div class="fac-search-box">
+                    <input type="text" id="fac-inputFilter" placeholder="Filter Faculty Name..."
+                        onchange="filterFaculty()" />
+                </div>
+                <select class="fac-option" id="fac-list">
+                    <option value="">Select any faculty.... </option>
+
+                </select>
+
+            </form>
+        </div>
 
     </section>
 
@@ -654,17 +673,18 @@
                 <li><a href="https://twitter.com/codechefvit?lang=en"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://www.instagram.com/codechefvit/?hl=en"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="https://github.com/CodeChefVIT?language=java"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"><i
+                            class="fa fa-linkedin-square"></i></a></li>
             </ul>
         </div>
         <div class="footer-bottom">
             <p> &copy; Copyright 2021 | With <span style="color: aqua; font-weight: 700">💙</span> by
                 <a href="http://www.codechefvit.com" target="_blank">
-                  <span>CodeChef-VIT</span>
+                    <span>CodeChef-VIT</span>
                 </a>
-              </p>
+            </p>
         </div>
-    </footer>   
+    </footer>
 
     <script src="./MainJS.js"></script>
     <script src="./course.js"></script>
@@ -674,7 +694,7 @@
     <script src="./course5.js"></script>
     <script src="./course6.js"></script>
     <script src="./course7.js"></script>
-
+    <script src="./Reviewfaculty.js"></script>
 
 
 </body>
