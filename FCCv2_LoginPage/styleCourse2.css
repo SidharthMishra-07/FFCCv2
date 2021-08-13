@@ -10,13 +10,15 @@
     font-family: 'Poppins', sans-serif;
 }
 .option{
-    width:600px;
+    display: block;
+    width:50%;
     min-height: 45px;
     background: #cbe7ff;
     border-radius: 3px;
     border: 2px solid #2196F3;
-    /* box-shadow: 0px 5px 25px rgba(0,0,0,0.5); */
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.5);
     outline: none;
+    margin: 0 auto;
 }
 .option option{
     font-size: 14px;
@@ -28,33 +30,35 @@
     font-size: 16px;
 }
 .container h2{
-    font-size: 2.3rem;
+    font-size: 2.7rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    margin-top: 10px;
-    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
     color:#909EFF;
 }
 .select-box{
-    /* margin:0px; */
     padding: 10px;
 }
 .options-container{
-    padding:5px 0px 0px 250px;
-    margin: 5px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 .selected{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600px;
     font-family: 'Poppins', sans-serif;
     color: #2196F3;
-    margin: 10px;
-    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.search-box{
+    width:50%;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .search-box input{
-    width:600px;
-    margin-bottom:10px;
-    padding: 5px;
     min-height: 35px;
     border-radius: 5px;
     border:2px solid #122CEC;
@@ -66,11 +70,11 @@
     box-shadow: 5px 5px 8px gray;
     color: white;
     font-weight: bold;
-    width: 175px;
+    width: 35%;
+    margin: 20px auto;
     border-radius: 20px;
     text-align: center;
     justify-content: center;
-    margin: 12px auto;
     cursor: pointer;
     transition: all 0.2s ease-in;
 }

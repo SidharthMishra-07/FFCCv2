@@ -17,7 +17,9 @@ html{
     --primary-color:#122CEC;
     --secondary-color:#909EFF;
 }
+
 /* ScrollBar */
+
 ::-webkit-scrollbar{
     width: 11px;
     cursor: pointer;
@@ -31,17 +33,13 @@ html{
     border-radius: 5px;
     background-color:#122CEC;
 }
-::-webkit-scrollbar-thumb:hover{
-
-}
 
 /*Home*/
 #home{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
-
+    align-items: center; */
 }
 #home::before{
     content:"";
@@ -58,8 +56,10 @@ html{
     padding: 10px 120px;
 }
 .homepage{
+    display: block;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    margin: 0 auto;
 }
 .home_text{
     float: right;

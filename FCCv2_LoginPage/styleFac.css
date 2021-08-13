@@ -1,0 +1,140 @@
+#facultyReview h1{
+    color: tomato;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-shadow:0 0 1px rgb(219, 54, 25);
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.rating-container{
+    display: block;
+    color: white;
+    background-color:#DB1F48;
+    padding: 25px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: .3rem;
+}
+.rating-container h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: aliceblue ;
+    line-height: 45px;
+}
+.rating-container p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: aliceblue ;
+}
+.fac-selected{
+    font-size: 1.5rem;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #2196F3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fac-search-box{
+    width:50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.fac-search-box input{
+    min-height: 35px;
+    border-radius: 5px;
+    border:2px solid #122CEC;
+    outline: none;
+}
+.fac-option{
+    display: block;
+    width:50%;
+    min-height: 45px;
+    background: #cbe7ff;
+    border-radius: 3px;
+    border: 2px solid #2196F3;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.5);
+    outline: none;
+    margin: 0 auto;
+}
+.fac-option option{
+    font-size: 14px;
+    line-height: 20px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+.fac-option option.text{
+    font-size: 16px;
+}
+
+/* Stars Container */
+
+.fac-options-container{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.rate-faculty {
+    display: flex;
+    justify-content: center;
+}
+.fac-h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color:#DB1F48;
+    text-align: center;
+}
+.rate-faculty.disabled{
+    pointer-events: none;
+}
+.rate-faculty a{
+    opacity: 25%;
+    cursor: pointer;
+    padding: 15px;
+    transform: scale(3);
+}
+.rate-faculty:hover a{
+    opacity: 100%;
+    transition: all 0.5s ease;
+}
+.rate-faculty a:hover{
+    opacity: 100%;
+    transition: all 0.5s ease;
+}
+.rate-faculty a:hover ~ a{
+    opacity: 25%;
+}
+.rate-faculty a.active{
+    opacity: 100%;
+}
+
+/* TextArea */
+.plane{
+    display: none;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.5);
+}
+.plane textarea{
+    display: block;
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #333;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+}
+.text-active{
+    display: flex;
+}
